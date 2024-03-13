@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='rock.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+<div>
+    <h1> Rock Paper Scissors Game</h1>
+    <p><strong>Choose Your Move:</strong></p>
+    <div class="button">
+        <button id="rock" onclick="playGame()">&#x1F44A</button>
+        <button id="paper" onclick=" playGame()">&#x1f590</button>
+        <button id="scissor" onclick="playGame()">&#x270c</button>
+    </div>
+    <p id="output"></p>
+    <p id="score">
+        Your score:<span id="scoreforuser">&nbsp;0</span>
+        Computer score:<span id="scoreforcomputer"> &nbsp;0</span>
+    </p>
+</div>
+<script src="rock.js"></script>   
+</body>
+</html>
